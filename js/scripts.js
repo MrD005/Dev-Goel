@@ -20,6 +20,103 @@
       }
     });
   
+       $(document).ready(function() {
+  var $videoSrc;
+  $(".video").click(function() {
+    $videoSrc = $(this).data("src");
+  });
+  $("#portfolioModal1").on("shown.bs.modal", function(e) {
+    $("#video1").attr(
+      "src",
+      "https://www.youtube.com/embed/IWo_iwsQWp8" + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
+  $("#portfolioModal1").on("hide.bs.modal", function(e) {
+    $("#video1").attr("src", ""); // Remove the video source.
+  });
+});
+        
+        $(document).ready(function() {
+  var $videoSrc;
+  $(".video").click(function() {
+    $videoSrc = $(this).data("src");
+  });
+  $("#portfolioModal2").on("shown.bs.modal", function(e) {
+    $("#video2").attr(
+      "src",
+      "https://www.youtube.com/embed/KdjPO7EUOwA" + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
+  $("#portfolioModal2").on("hide.bs.modal", function(e) {
+    $("#video2").attr("src", ""); // Remove the video source.
+  });
+});
+        
+        $(document).ready(function() {
+  var $videoSrc;
+  $(".video").click(function() {
+    $videoSrc = $(this).data("src");
+  });
+  $("#portfolioModal3").on("shown.bs.modal", function(e) {
+    $("#video3").attr(
+      "src",
+      "https://www.youtube.com/embed/k_g43LhQYvw" + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
+  $("#portfolioModal3").on("hide.bs.modal", function(e) {
+    $("#video3").attr("src", ""); // Remove the video source.
+  });
+});
+        
+        $(document).ready(function() {
+  var $videoSrc;
+  $(".video").click(function() {
+    $videoSrc = $(this).data("src");
+  });
+  $("#portfolioModal4").on("shown.bs.modal", function(e) {
+    $("#video4").attr(
+      "src",
+      "https://www.youtube.com/embed/CnIIsBjWCXI" + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
+  $("#portfolioModal4").on("hide.bs.modal", function(e) {
+    $("#video4").attr("src", ""); // Remove the video source.
+  });
+});
+        
+        $(document).ready(function() {
+  var $videoSrc;
+  $(".video").click(function() {
+    $videoSrc = $(this).data("src");
+  });
+  $("#portfolioModal5").on("shown.bs.modal", function(e) {
+    $("#video5").attr(
+      "src",
+      "https://www.youtube.com/embed/u_bOhfQIkRY" + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
+  $("#portfolioModal5").on("hide.bs.modal", function(e) {
+    $("#video5").attr("src", ""); // Remove the video source.
+  });
+});
+        
+        $(document).ready(function() {
+  var $videoSrc;
+  $(".video0").click(function() {
+    $videoSrc = $(this).data("src");
+  });
+  $("#portfolioModal0").on("shown.bs.modal", function(e) {
+    $("#video0").attr(
+      "src",
+      "https://www.youtube.com/embed/S2qeyTLnDd8" + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
+  $("#portfolioModal0").on("hide.bs.modal", function(e) {
+    $("#video0").attr("src", ""); // Remove the video source.
+  });
+});
+        
+        
     // Scroll to top button appear
     $(document).scroll(function() {
       var scrollDistance = $(this).scrollTop();

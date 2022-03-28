@@ -13,6 +13,7 @@
         <!-- Fonts CSS-->
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
+        <script src="js/scripts.js"></script>
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
@@ -167,11 +168,11 @@
                                     </div>
                                     <!-- Portfolio Modal - Image--><!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/3726585.jpg" alt="Game Development"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <div class="video-responsive">
-                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/S2qeyTLnDd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe id = "video0" width="700" height="400" src="https://www.youtube.com/embed/S2qeyTLnDd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <p class="mb-5">Basic Mathematics Function game developed in unity for android platform in which we can play 50 levels, each addition,multiplication, subtraction and division</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <button class="btn btn-primary" href="#game" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
                         </div>
@@ -179,10 +180,10 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <button class="close" type="button" data-dismiss="modal" data-toggle="modal" aria-label="Close" data-target="#portfolioModal1" ><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -195,11 +196,11 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--> <div class="video-responsive">
-                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/IWo_iwsQWp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <!-- Portfolio Modal - Image--> <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe id = "video1" width="700" height="400" src="https://www.youtube.com/embed/IWo_iwsQWp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <p class="mb-5">2D Role Playing game developed in Unity</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <button class="btn btn-primary" href="#game" data-dismiss="modal" ><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
                         </div>
@@ -223,8 +224,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><div class="video-responsive">
-                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/KdjPO7EUOwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <!-- Portfolio Modal - Image--><div class="embed-responsive embed-responsive-16by9">
+                                        <iframe id = "video2" width="700" height="400" src="https://www.youtube.com/embed/KdjPO7EUOwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">3D Experience of an Underground Mine using Unity 3D having First Person Control to walk and Look around and Interaction with different Machineries also.</p>
@@ -253,8 +254,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><div class="video-responsive">
-                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/k_g43LhQYvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <!-- Portfolio Modal - Image--><div class="embed-responsive embed-responsive-16by9">
+                                        <iframe id = "video3" width="700" height="400" src="https://www.youtube.com/embed/k_g43LhQYvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">It is an android AR based application based on Indian Tourism in which we can experience Indian monument through a portal door in augmented reality</p>
@@ -283,8 +284,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><div class="video-responsive">
-                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/CnIIsBjWCXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <!-- Portfolio Modal - Image--><div class="embed-responsive embed-responsive-16by9">
+                                        <iframe id = "video4" width="700" height="400" src="https://www.youtube.com/embed/CnIIsBjWCXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Consist of Different Small AR Projects.Image Tracking, Plane Tracking,Multiple Image Tracking, Hand Gesture Tracking, AR Portal</p>
@@ -313,8 +314,8 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><div class="video-responsive">
-                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/u_bOhfQIkRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <!-- Portfolio Modal - Image--><div class="embed-responsive embed-responsive-16by9">
+                                        <iframe id = "video5" width="700" height="400" src="https://www.youtube.com/embed/u_bOhfQIkRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
                                     <br>
